@@ -4,7 +4,7 @@ provider "aws" {
 
 
 resource "aws_instance" "vk0861"{
-    ami = "ami-0c55b159cbfafe1f0"
+    ami = "ami-08a6efd148b1f7504"
     instance_type = "t2.micro"
     count = var.core_count
 
